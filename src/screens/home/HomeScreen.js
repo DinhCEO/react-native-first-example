@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Platform, Text, View} from 'react-native';
 import {connect} from 'react-redux';
-import reducerOne from "../../reducers/reducer-1";
 
 const instructions = Platform.select({
     ios    : 'Press Cmd+R to reload,\n' +
